@@ -285,7 +285,7 @@ class FormBuilder
     public function input($type, $name, $value = null, $options = [])
     {
         $this->type = $type;
-
+        dd('here');
         if (! isset($options['name'])) {
             $options['name'] = $name;
         }
